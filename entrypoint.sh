@@ -52,7 +52,7 @@ export OUTPUT="/output/$INPUT_OUTPUTFOLDER"
 export EMAIL="$INPUT_EMAIL"
 export PASSWORD="$INPUT_PASSWORD"
 
-node /crawler/index.js
+node /crawler/index.mjs
 
 # Commit changes
 echo "Commiting changes..."
