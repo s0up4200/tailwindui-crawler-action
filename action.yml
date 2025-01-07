@@ -45,9 +45,9 @@ inputs:
     required: false
     default: ${{ github.repository }}
   crawler:
-    description: "The repository of the crawler (defaults to 'BrandonClapp/tailwindui-crawler')"
+    description: "The repository of the crawler (defaults to 's0up4200/tailwindui-crawler')"
     required: false
-    default: "BrandonClapp/tailwindui-crawler"
+    default: "s0up4200/tailwindui-crawler"
   crawlerref:
     description: "The ref (branch, tag or SHA) to checkout of the crawler"
     required: false
